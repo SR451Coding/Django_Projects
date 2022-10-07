@@ -1,0 +1,23 @@
+{% extends 'shop/layouts/main.html'%}
+{% block title %}
+    Registration | ShopKart
+{% endblock title %}
+
+{% block content %}
+<section class="bg-light py-4 my-5" >
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h4 class="mb-3">Cart Items</h4>
+          <hr style="border-color:#b8bfc2;">
+            <p>
+          <a href="{% url 'login' %}" class="btn btn-primary my-2">Already User</a>
+          <a href="{% url 'register' %}" class="btn btn-secondary my-2">Register</a>
+        </p>
+        </div>
+          </div>
+        </div>
+</section>
+{% endblock content %}
+
+

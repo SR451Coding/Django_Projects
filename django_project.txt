@@ -1,0 +1,11 @@
+mysqlclient
+
+django-admin 
+django-admin startproject saran_project .
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+pip install mysqlclient 
+python manage.py makemigrations
+python manage.py migrate  
+python manage.py runserver
+pip install pillow
+pip install django-jazzmin
